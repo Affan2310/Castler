@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(253 230 138);
+}
+#btn{
+  height: 20px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(234 179 8);
+}
+#input{
+  border: 1px solid black;
+}
+#userDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:dark whitesmoke;
+color: rgb(0, 0, 0);
+}
+#section{
+  width: 100px;
+  height: 580px;
+  border:2px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 500px){
+  .holder{
+      display: flex;
+      flex-direction: column;
+  }
+}
+
